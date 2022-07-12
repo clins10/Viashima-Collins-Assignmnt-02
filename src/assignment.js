@@ -17,7 +17,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.reduce((acc, curr) => acc + curr, 0);
     // return arrayOfNumbers.length;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -32,7 +32,7 @@ function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.filter(num => num % 2 === 0).length;
     // return arrayOfNumbers.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -52,7 +52,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers.map(num => Math.trunc(num * 9 / 5 + 32));
     // return arrayOfNumbers;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
